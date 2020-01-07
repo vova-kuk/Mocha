@@ -1,9 +1,14 @@
-function sum (a, b) {
-    return a + b;
+function isAdult (age) {
+    return age >= 18;
 }
 
-function mult (a, b) {
-    return a * b;
+function sortArrayUp (arr) {
+    return arr.sort((a, b) => a - b);
 }
 
-module.exports = {sum, mult};
+function isPalindrome (str) {
+    let reverse = str.split('').reverse().join('');
+    return str.split('').reverse().join('') === str;
+}
+
+module.exports = {isAdult, isPalindrome};
