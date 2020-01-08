@@ -1,5 +1,5 @@
 function isAdult (age) {
-    return age >= 18;
+    return age >= 21;
 }
 
 function sortArrayUp (arr) {
@@ -7,8 +7,15 @@ function sortArrayUp (arr) {
 }
 
 function isPalindrome (str) {
-    let reverse = str.split('').reverse().join('');
-    return str.split('').reverse().join('') === str;
+    return str.split('').reverse().join('').toLowerCase() === str.toLowerCase();
 }
 
-module.exports = {isAdult, isPalindrome};
+function isOddNumber (number) {
+    return number % 2 === 0;
+}
+
+function isEvenNumber (number) {
+    return number % 2 !== 0;
+}
+
+module.exports = {isAdult, isPalindrome, sortArrayUp, isOddNumber, isEvenNumber};
