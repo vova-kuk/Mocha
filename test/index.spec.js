@@ -4,7 +4,7 @@ const {isAdult, isPalindrome, sortArrayUp, isOddNumber, isEvenNumber} = require(
 
 describe('function isAdult', () => {
     it('should function isAdult work correctly', () => {
-        assert.equal(isAdult(18), false);
+        assert.equal(isAdult(21), true);
     })
 })
 
@@ -22,13 +22,13 @@ describe('function sortArrayUp', () => {
 
 describe('function isOddNumber', () => {
     it('should function isOddNumber work correctly', function () {
-        assert.equal(isOddNumber(5), false)
+        assert.equal(isOddNumber(5), true)
     });
 })
 
 describe('function isEvenNumber', () => {
     it('should function isEvenNumber work correctly', function () {
-        assert.equal(isEvenNumber(5), true)
+        assert.equal(isEvenNumber(5), false)
     });
 })
 
