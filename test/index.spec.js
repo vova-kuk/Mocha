@@ -1,10 +1,12 @@
 const assert = require('assert');
+const {expect} = require('chai');
 
 const {isAdult, isPalindrome, sortArrayUp, isOddNumber, isEvenNumber} = require('../index');
 
 describe('function isAdult', () => {
     it('should function isAdult work correctly', () => {
-        assert.equal(isAdult(21), true);
+        //assert.equal(isAdult(21), true);
+        expect(isAdult(21), false).to;
     })
 })
 
@@ -17,6 +19,7 @@ describe('function isPalindrome', () => {
 describe('function sortArrayUp', () => {
     it('should function sortArrayUp work correctly', () => {
         assert.deepEqual(sortArrayUp([4, 1, 7, 2, 0]), [0, 1, 2, 4, 7])
+        expect(sortArrayUp([4, 1, 7, 2, 0]), [0, 1, 2, 4, 7])
     });
 })
 
