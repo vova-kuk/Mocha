@@ -1,3 +1,7 @@
+This project is for practice how to write unit test cases using Mocha and Chai in a NodeJS application. 
+Just to give a basic introduction of other these libraries, Mocha is a feature-rich JavaScript 
+test framework running on Node.js and in the browser. Chai is an assertion library for node.
+
 Chai
 
 To make equality checks or compare expected results against actual results we can use Node.js
