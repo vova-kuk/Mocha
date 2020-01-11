@@ -12,13 +12,19 @@ Chai exposes three assertion interfaces: expect(), assert() and should().
 Any of them can be used for assertions.
 
 Setup
+
 Install Nodejs 
+
 Install Mocha by running the command: 
-$ npm install --global mocha,
-$ npm install --save-dev mocha
+ npm install --global mocha,
+ npm install --save-dev mocha
+
 Install Chai by running the command:
-$ npm install --save-dev chai
+ npm install --save-dev chai
+
 Run npm test to run all test specs.
+
+Function description:
 
 Function isAdult is to checks age, is it adult.
 
